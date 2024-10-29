@@ -1,0 +1,331 @@
+{
+    "cpcodes": [
+        {
+            "cpcode": 1067221,
+            "HitsTotal": 365490450,
+            "BytesTotal": 39262560272799,
+            "TopURLs": [
+                {
+                    "hostname.url": "dam-public-assets-955217394624.s3-accesspoint.us-east-1.amazonaws.com/assets/dotcom/adrum/adrum22603859.js",
+                    "allEdgeHits": "21893601"
+                },
+                {
+                    "hostname.url": "dam-public-assets-955217394624.s3-accesspoint.us-east-1.amazonaws.com/assets/dotcom/adrum/adrumext9d5121275ace25922553697e145d6bf1.js",
+                    "allEdgeHits": "19717594"
+                },
+                {
+                    "hostname.url": "dam-public-assets-955217394624.s3-accesspoint.us-east-1.amazonaws.com/assets/dotcom/projects/cix-5036_return_to_bau_assets/Logo-ReturntoBAU.svg",
+                    "allEdgeHits": "7501329"
+                },
+                {
+                    "hostname.url": "dam-public-assets-955217394624.s3-accesspoint.us-east-1.amazonaws.com/assets/dotcom/projects/cix-4912-homepage-evolution/XfinityPrepaidlcon_Iogo_Top.svg",
+                    "allEdgeHits": "6873035"
+                },
+                {
+                    "hostname.url": "dam-public-assets-955217394624.s3-accesspoint.us-east-1.amazonaws.com/assets/dotcom/projects_2/cix-5206_update-ie-logo/01-LS_Homepage_Evolution_IE_LOGO_1x.png",
+                    "allEdgeHits": "6740477"
+                },
+                {
+                    "hostname.url": "dam-public-assets-955217394624.s3-accesspoint.us-east-1.amazonaws.com/assets/dotcom/projects/cix-5091_student_placement_for_spring-_fall_rush/StudentDeals_icon_third_tile.svg",
+                    "allEdgeHits": "6549414"
+                },
+                {
+                    "hostname.url": "dam-public-assets-955217394624.s3-accesspoint.us-east-1.amazonaws.com/assets/dotcom/projects/cix-5036_return_to_bau_assets/Hero-ReturntoBAU-Destkop.jpg",
+                    "allEdgeHits": "4749907"
+                },
+                {
+                    "hostname.url": "dam-public-assets-955217394624.s3-accesspoint.us-east-1.amazonaws.com/assets/dotcom/projects/cix-4912-homepage-evolution/HP_Mobile_3Up_Image_Desktop.png",
+                    "allEdgeHits": "4278627"
+                },
+                {
+                    "hostname.url": "dam-public-assets-955217394624.s3-accesspoint.us-east-1.amazonaws.com/assets/dotcom/projects/cix-4912-homepage-evolution/HP_Entertainment_3Up_Image_Desktop.png",
+                    "allEdgeHits": "4273364"
+                },
+                {
+                    "hostname.url": "dam-public-assets-955217394624.s3-accesspoint.us-east-1.amazonaws.com/assets/dotcom/projects/cix-4912-homepage-evolution/HP_Internet_3Up_Image_Desktop.png",
+                    "allEdgeHits": "4272773"
+                },
+                {
+                    "hostname.url": "dam-public-assets-955217394624.s3-accesspoint.us-east-1.amazonaws.com/assets/dotcom/xds-icons/outbound_calls/ic_outbound_calls_outline_light_neutral_24.svg",
+                    "allEdgeHits": "4008454"
+                },
+                {
+                    "hostname.url": "dam-public-assets-955217394624.s3-accesspoint.us-east-1.amazonaws.com/assets/dotcom/projects/cix-4912-homepage-evolution/ACP_Badge_Save_Purple_Desktop.png",
+                    "allEdgeHits": "3945387"
+                },
+                {
+                    "hostname.url": "dam-public-assets-955217394624.s3-accesspoint.us-east-1.amazonaws.com/assets/dotcom/icons/Icon_XA_Smoulder_40w.svg",
+                    "allEdgeHits": "3793788"
+                },
+                {
+                    "hostname.url": "dam-public-assets-955217394624.s3-accesspoint.us-east-1.amazonaws.com/assets/dotcom/projects/cix-3477_lob_customer_homepage/Icon_HP_Billing_Purple_72.svg",
+                    "allEdgeHits": "3375377"
+                },
+                {
+                    "hostname.url": "dam-public-assets-955217394624.s3-accesspoint.us-east-1.amazonaws.com/assets/dotcom/projects/cix-3477_lob_customer_homepage/Icon_HP_Chat_Purple_72.svg",
+                    "allEdgeHits": "3358869"
+                },
+                {
+                    "hostname.url": "dam-public-assets-955217394624.s3-accesspoint.us-east-1.amazonaws.com/assets/dotcom/projects/cix-4817_moves_ec_homepage_tile/Stylized-Icon_Transactions_Moving_Purple_72.svg",
+                    "allEdgeHits": "3339862"
+                },
+                {
+                    "hostname.url": "dam-public-assets-955217394624.s3-accesspoint.us-east-1.amazonaws.com/assets/dotcom/projects/cix-3477_lob_customer_homepage/Icon_HP_Assistant_Purple_72.svg",
+                    "allEdgeHits": "3338161"
+                },
+                {
+                    "hostname.url": "dam-public-assets-955217394624.s3-accesspoint.us-east-1.amazonaws.com/assets/dotcom/projects/cix-5036_return_to_bau_assets/Hero-ReturntoBAU-Mobile.jpg",
+                    "allEdgeHits": "3001166"
+                },
+                {
+                    "hostname.url": "dam-public-assets-955217394624.s3-accesspoint.us-east-1.amazonaws.com/assets/dotcom/projects/cix-4912-homepage-evolution/ACP_Badge_Save_Purple_Mobile.png",
+                    "allEdgeHits": "2286484"
+                },
+                {
+                    "hostname.url": "dam-public-assets-955217394624.s3-accesspoint.us-east-1.amazonaws.com/assets/dotcom/projects/cix-3477_lob_customer_homepage/Image_HP_Join-Xfinity-Rewards_HalfImage_Desktop.jpg",
+                    "allEdgeHits": "2201980"
+                }
+            ],
+            "Top4xxURLs": [
+                {
+                    "hostname.url": "dam-public-assets-955217394624.s3-accesspoint.us-east-1.amazonaws.com/assets/dotcom/adrum/adrum22603859.js",
+                    "4XXEdgeHits": "240"
+                },
+                {
+                    "hostname.url": "dam-public-assets-955217394624.s3-accesspoint.us-east-1.amazonaws.com/assets/dotcom/adrum/adrumext9d5121275ace25922553697e145d6bf1.js",
+                    "4XXEdgeHits": "0"
+                },
+                {
+                    "hostname.url": "dam-public-assets-955217394624.s3-accesspoint.us-east-1.amazonaws.com/assets/dotcom/projects/cix-5036_return_to_bau_assets/Logo-ReturntoBAU.svg",
+                    "4XXEdgeHits": "10"
+                },
+                {
+                    "hostname.url": "dam-public-assets-955217394624.s3-accesspoint.us-east-1.amazonaws.com/assets/dotcom/projects/cix-4912-homepage-evolution/XfinityPrepaidlcon_Iogo_Top.svg",
+                    "4XXEdgeHits": "15"
+                },
+                {
+                    "hostname.url": "dam-public-assets-955217394624.s3-accesspoint.us-east-1.amazonaws.com/assets/dotcom/projects_2/cix-5206_update-ie-logo/01-LS_Homepage_Evolution_IE_LOGO_1x.png",
+                    "4XXEdgeHits": "1"
+                }
+            ]
+        },
+        {
+            "cpcode": 888707,
+            "HitsTotal": 1518949285,
+            "BytesTotal": 50414448810095,
+            "TopURLs": [
+                {
+                    "hostname.url": "www.ebizxfinity.akadns.net/-/media/5BF28DC6EBA54E929173CC7B0D9B6E69",
+                    "allEdgeHits": "58298935"
+                },
+                {
+                    "hostname.url": "jss.xfinity.com/sitecore/api/learn/neptune/persistencelayer/usercontext",
+                    "allEdgeHits": "33907628"
+                },
+                {
+                    "hostname.url": "jss.xfinity.com/sitecore/api/learn/neptune/carts/cartindicator",
+                    "allEdgeHits": "33018988"
+                },
+                {
+                    "hostname.url": "www.wcdc.prd.xfinity.com/-/media/5BF28DC6EBA54E929173CC7B0D9B6E69",
+                    "allEdgeHits": "31716106"
+                },
+                {
+                    "hostname.url": "d-4jjnh25xm1.execute-api.us-east-1.amazonaws.com/xoe-api/cms/presentation",
+                    "allEdgeHits": "22921890"
+                },
+                {
+                    "hostname.url": "www.pdc.prd.xfinity.com/-/media/5BF28DC6EBA54E929173CC7B0D9B6E69",
+                    "allEdgeHits": "21782326"
+                },
+                {
+                    "hostname.url": "learn.xfinity.com/overview",
+                    "allEdgeHits": "64682704"
+                },
+                {
+                    "hostname.url": "learn.xfinity.com/xfinity-learn-ui/images/favicon/favicon.ico",
+                    "allEdgeHits": "20040230"
+                },
+                {
+                    "hostname.url": "botfender-forward.akamai.com/rkUb/3TQ5/wx06J/Bzw_A/z1i1czfXQpD9/HgAzLVlZ/cntDUSA/5cCE",
+                    "allEdgeHits": "19855329"
+                },
+                {
+                    "hostname.url": "botfender-forward.akamai.com/NubR5Jw1R8nuXGKI5AIkndUg714/m5imXVSJht/cUpOBTN0TwM/YlM8YQ/QqNDQ",
+                    "allEdgeHits": "19172496"
+                },
+                {
+                    "hostname.url": "botfender-forward.akamai.com/GuutoQz50yjN9Hp9HQ2X/ki3uhcrcDw7Dik/MWFhNw/BxBpD/wUkGTM",
+                    "allEdgeHits": "19039948"
+                },
+                {
+                    "hostname.url": "botfender-forward.akamai.com/ZPVKL/3b9Bc/z9Iyf5/jEXR/zu9Jhr6QGf/GSkCcA/Uxx/NdTw6YwU",
+                    "allEdgeHits": "18833908"
+                },
+                {
+                    "hostname.url": "botfender-forward.akamai.com/JPX9Wc3F7Lx_/zovPSlx80z/zs/Yp7YLkrNt0/QFJ-eUU/ZUcGdH/AxGTI",
+                    "allEdgeHits": "18688386"
+                },
+                {
+                    "hostname.url": "botfender-forward.akamai.com/0M1R_83Jehd4tk6wmA/w1ViwDDSDQ3b/M3IGCSk5DQM/QStDMGdP/LRo",
+                    "allEdgeHits": "18322002"
+                },
+                {
+                    "hostname.url": "hub.xfinity.com/hub/",
+                    "allEdgeHits": "18537541"
+                },
+                {
+                    "hostname.url": "botfender-forward.akamai.com/LNugnWF57M9bB0cffPRoV_6D/w71ufkXckz/aioUXzp6AQ/FB5SNiA/LOwUB",
+                    "allEdgeHits": "18133051"
+                },
+                {
+                    "hostname.url": "botfender-forward.akamai.com/x2jgV6akS/S9UI6jFH/vc8oTjFo/pg/biYGJGXcr0V79w/dBkwGSAzdA/Wn4DQQ0D/MFc",
+                    "allEdgeHits": "18101307"
+                },
+                {
+                    "hostname.url": "botfender-forward.akamai.com/JyudiJzWJmEQ20vwe2Q63sK8/z15kcwJSSXuE/T3VIcjEB/Mhcs/YXZeNR8",
+                    "allEdgeHits": "17887731"
+                },
+                {
+                    "hostname.url": "jss.xfinity.com/sitecore/api/learn/neptune/address-search/suggestions",
+                    "allEdgeHits": "18063096"
+                },
+                {
+                    "hostname.url": "www.ebizxfinity.akadns.net/",
+                    "allEdgeHits": "32136946"
+                }
+            ],
+            "Top4xxURLs": [
+                {
+                    "hostname.url": "www.ebizxfinity.akadns.net/-/media/5BF28DC6EBA54E929173CC7B0D9B6E69",
+                    "4XXEdgeHits": "1322641"
+                },
+                {
+                    "hostname.url": "jss.xfinity.com/sitecore/api/learn/neptune/persistencelayer/usercontext",
+                    "4XXEdgeHits": "38126"
+                },
+                {
+                    "hostname.url": "jss.xfinity.com/sitecore/api/learn/neptune/carts/cartindicator",
+                    "4XXEdgeHits": "57260"
+                },
+                {
+                    "hostname.url": "www.wcdc.prd.xfinity.com/-/media/5BF28DC6EBA54E929173CC7B0D9B6E69",
+                    "4XXEdgeHits": "2643"
+                },
+                {
+                    "hostname.url": "d-4jjnh25xm1.execute-api.us-east-1.amazonaws.com/xoe-api/cms/presentation",
+                    "4XXEdgeHits": "2"
+                }
+            ]
+        },
+        {
+            "cpcode": 1111013,
+            "HitsTotal": 2266029,
+            "BytesTotal": 34062418640,
+            "TopURLs": [
+                {
+                    "hostname.url": "cms9.xfinity.com/sitecore/api/layout/render/jss",
+                    "allEdgeHits": "511156"
+                },
+                {
+                    "hostname.url": "cms9.xfinity.com/sitecore/api/jss/dictionary/dss-dotcom/en",
+                    "allEdgeHits": "39527"
+                },
+                {
+                    "hostname.url": "cms9.xfinity.com/sitecore/shell/controls/lib/prototype/prototype.js",
+                    "allEdgeHits": "34920"
+                },
+                {
+                    "hostname.url": "cms9.xfinity.com/sitecore/shell/controls/lib/jsnlog/jsnlog.min.js",
+                    "allEdgeHits": "32862"
+                },
+                {
+                    "hostname.url": "cms9.xfinity.com/sitecore/images/blank.gif",
+                    "allEdgeHits": "27179"
+                },
+                {
+                    "hostname.url": "cms9.xfinity.com/sitecore/shell/Applications/Content%20Editor.aspx",
+                    "allEdgeHits": "25923"
+                },
+                {
+                    "hostname.url": "cms9.xfinity.com/sitecore/shell/controls/Sitecore.js",
+                    "allEdgeHits": "24161"
+                },
+                {
+                    "hostname.url": "cms9.xfinity.com/sitecore/shell/controls/Browser.js",
+                    "allEdgeHits": "24161"
+                },
+                {
+                    "hostname.url": "cms9.xfinity.com/ScriptResource.axd",
+                    "allEdgeHits": "22888"
+                },
+                {
+                    "hostname.url": "cms9.xfinity.com/sitecore/shell/controls/Lib/Flexie/flex.css",
+                    "allEdgeHits": "22667"
+                },
+                {
+                    "hostname.url": "cms9.xfinity.com/sitecore/shell/themes/xfinity/XfinityDesktop.css",
+                    "allEdgeHits": "22404"
+                },
+                {
+                    "hostname.url": "cms9.xfinity.com/sitecore/shell/themes/standard/default/Default.css",
+                    "allEdgeHits": "22110"
+                },
+                {
+                    "hostname.url": "cms9.xfinity.com/-/temp/iconcache/office/32x32/default_user.png.aspx",
+                    "allEdgeHits": "22003"
+                },
+                {
+                    "hostname.url": "cms9.xfinity.com/sitecore/shell/default.aspx",
+                    "allEdgeHits": "19251"
+                },
+                {
+                    "hostname.url": "cms9.xfinity.com/sitecore/shell/themes/standard/Images/ribbondropdown.gif",
+                    "allEdgeHits": "18914"
+                },
+                {
+                    "hostname.url": "cms9.xfinity.com/sitecore/service/keepalive.aspx",
+                    "allEdgeHits": "20649"
+                },
+                {
+                    "hostname.url": "cms9.xfinity.com/sitecore/shell/themes/standard/Images/accordion_up.png",
+                    "allEdgeHits": "13863"
+                },
+                {
+                    "hostname.url": "cms9.xfinity.com/sitecore/api/jss/dictionary/hub/en",
+                    "allEdgeHits": "13687"
+                },
+                {
+                    "hostname.url": "cms9.xfinity.com/-/temp/iconcache/office/16x16/notebook2.png.aspx",
+                    "allEdgeHits": "13628"
+                },
+                {
+                    "hostname.url": "cms9.xfinity.com/WebResource.axd",
+                    "allEdgeHits": "12990"
+                }
+            ],
+            "Top4xxURLs": [
+                {
+                    "hostname.url": "cms9.xfinity.com/sitecore/api/layout/render/jss",
+                    "4XXEdgeHits": "452504"
+                },
+                {
+                    "hostname.url": "cms9.xfinity.com/sitecore/api/jss/dictionary/dss-dotcom/en",
+                    "4XXEdgeHits": "0"
+                },
+                {
+                    "hostname.url": "cms9.xfinity.com/sitecore/shell/controls/lib/prototype/prototype.js",
+                    "4XXEdgeHits": "0"
+                },
+                {
+                    "hostname.url": "cms9.xfinity.com/sitecore/shell/controls/lib/jsnlog/jsnlog.min.js",
+                    "4XXEdgeHits": "0"
+                },
+                {
+                    "hostname.url": "cms9.xfinity.com/sitecore/images/blank.gif",
+                    "4XXEdgeHits": "0"
+                }
+            ]
+        }
+    ]
+}

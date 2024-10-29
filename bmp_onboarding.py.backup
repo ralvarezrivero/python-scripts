@@ -1,0 +1,107 @@
+import argparse, string
+import json, sys, os, requests
+from akamai.edgegrid import EdgeGridAuth, EdgeRc
+from datetime import datetime, timedelta, date
+import urllib
+from collections import OrderedDict
+import csv
+import pandas as pd
+
+################### BEGIN DEFINE FUNCTIONS ##########
+
+def get_parameters():
+
+    parser = argparse.ArgumentParser()
+    parser.add_argument('-e',help='edgerc path',dest='edgerc_file',default='~/.edgerc')
+    parser.add_argument('-a',help='account switch key',required=True,dest='switch_key')
+    parser.add_argument('-s',help='section',dest='section',default='default')
+    parser.add_argument('-f',help='csv file',required=True,dest='csvfile')
+    parser.add_argument('-v',help='API Version',required=True,dest='api_version')
+    parser.add_argument('-i',help='Endpoint ID',required=True,dest='ep_id')
+    all_args=parser.parse_args()
+
+    return all_args
+
+def create_resource(req_obj,baseurl,row,endpoint,version,skey):
+
+    create_res_url=baseurl+'/api-definitions/v2/endpoints/'+endpoint+'/versions/'+version+'/resources'
+    print(create_res_url)
+    payload = {
+        "apiResourceMethods": [
+            {
+                "apiResourceMethod": row[0]
+            }
+        ],
+        "apiResourceName": row[1],
+        "resourcePath": row[2],
+        "description": "Created with API call"
+    }
+    headers = {
+        "accept": "application/json",
+        "content-type": "application/json"
+    }
+    print(skey)
+    querystring = {
+        "accountSwitchKey": skey
+    }
+    try:
+        response=req_obj.post(create_res_url, json=payload,params=querystring)
+        res_resp=response.json()
+        return res_resp['apiResourceId']
+    except:
+        print(res_resp['detail'])
+
+# def create_api_operators((req_obj,baseurl,res_id,skey))
+
+def list_res(req_obj,baseurl,endpoint,version,skey):
+    print(endpoint+' '+version)
+    url=baseurl+'/api-definitions/v2/'+endpoint+'/versions/'+version+'resources'
+    response=req_obj.get(url)
+    print(response.json())
+
+def list_epoints(req_obj,baseurl,skey):
+    url=baseurl+'/api-definitions/v2/endpoints'
+    querystring = {
+        "accountSwitchKey": skey
+    }
+    response=req_obj.get(url,params=querystring)
+    endpoints=response.json()
+    for ep in endpoints['apiEndPoints']:
+        print('{} {} {}'.format(ep['apiEndPointId'],ep['apiEndPointName'],ep['createdBy']))
+
+################### START PROGRAM ###################
+
+args=get_parameters()
+
+print(args.section+'  '+args.switch_key)
+
+# set the request's object information
+edgerc_file_path = os.path.expanduser(args.edgerc_file)
+edgerc_object = EdgeRc(edgerc_file_path)
+baseurl = 'https://' + edgerc_object.get(args.section, 'host')
+r = requests.Session()
+r.auth = EdgeGridAuth.from_edgerc(edgerc_object, args.section)
+
+#main_list = []
+datafr=pd.read_csv(args.csvfile, header=None)
+#print(dataframe)
+
+"""     for num_row, row in enumerate(reader):
+        row.append(num_row)
+        main_list.append(row) """
+
+#list_res(r,baseurl,args.ep_id,args.api_version,args.switch_key)
+#list_epoints(r,baseurl,args.switch_key)
+for row in range(len(datafr)):
+    print('First two values {} and {}'.format(datafr.iloc[row,0],datafr.iloc[row,1]))
+""" for res_info in main_list:
+    print(res_info)
+    res_id=create_resource(r,baseurl,res_info,args.ep_id,args.api_version,args.switch_key)
+    res_info.append(res_id)
+    print(res_info) """
+    #create_api_operators(r,baseurl,res_id,args.switch_key)
+
+# push to staging
+# check if version of staging is the one we created
+
+# create the api definition

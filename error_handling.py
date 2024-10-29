@@ -1,0 +1,1 @@
+def testinputs(num1, num2): if not isinstance(num1, int) or not isinstance(num2, int): raise ValueError("Both inputs must be integers") return num2 - num1 try: result= testinputs( 100, 33) print(result) except ValueError as err: print(err) print("EOS")
