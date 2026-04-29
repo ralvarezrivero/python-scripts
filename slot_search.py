@@ -4,7 +4,7 @@ import argparse, string
 import json, sys, os, requests
 from akamai.edgegrid import EdgeGridAuth, EdgeRc
 import urllib
-from urllib.parse import urljoin
+from urllib.p/cpcode-mgmt/api/v1/cpcodes/arse import urljoin
 import dns.resolver
 
 # define the parameters that are the inputs for this program

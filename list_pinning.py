@@ -11,7 +11,7 @@ for prop in orig_data:
             try:
                 if len(loc_results['options']['customCertificates']) > 0:
                     for cust_cert in loc_results['options']['customCertificates']:
-                        if 'cqai' in  cust_cert['subjectCN']:
+                        if 'language' in  cust_cert['subjectCN']:
                             print("%s found in origin %s in property %s"%(cust_cert['subjectCN'],loc_results['options']['hostname'],prop['propertyName']))
             except:
                 pass

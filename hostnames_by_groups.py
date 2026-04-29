@@ -10,10 +10,10 @@ import argparse
 # from https://github.com/akamai/AkamaiOPEN-edgegrid-python
 edgerc_file_path = os.path.expanduser('~/.edgerc')
 edgerc_object = EdgeRc(edgerc_file_path)
-baseurl = 'https://' + edgerc_object.get('default', 'host')
+baseurl = 'https://' + edgerc_object.get('all', 'host')
 
 s=requests.Session()
-s.auth=EdgeGridAuth.from_edgerc(edgerc_object,'default')
+s.auth=EdgeGridAuth.from_edgerc(edgerc_object,'all')
 
 groups_api='/papi/v1/groups'
 prps_api='/papi/v1/properties'
@@ -22,8 +22,23 @@ headers = {
     "accept": "application/json",
     "PAPI-Use-Prefixes": "false"
 }
-grp_req=s.get(baseurl+groups_api,headers=headers)
+
+skey=sys.argv[1]
+print(skey)
+
+params = {
+    "accountSwitchKey": skey
+}
+
+grp_req=s.get(baseurl+groups_api,headers=headers,params=params)
 grp_json=grp_req.json()
+
+def get_prop_json (propertyId):
+
+    prop_api='/papi/v1/properties/'
+
+print(grp_json)
+
 
 for grp in grp_json['groups']['items']:
     print(grp['groupName']+' has the following contract(s) and properties:')
@@ -33,12 +48,10 @@ for grp in grp_json['groups']['items']:
         params={'groupId': grp['groupId'],'contractId': contract}
         prps=s.get(baseurl+prps_api,headers=headers,params=params)
         prps_json=prps.json()
+        print(prps_json)
         for props in prps_json['properties']['items']:
-            print('   '+props['propertyName'])
+            print('   '+props['propertyName']+' propertyId: '+props['propertyId'])
         print()
         
-
-        
-
 
 	
