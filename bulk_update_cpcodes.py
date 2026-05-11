@@ -77,8 +77,8 @@ def main():
                 print(f"  -> ERROR fetching CP code. Status: {get_req.status_code}")
                 time.sleep(1)
                 continue
-                
             payload = get_req.json()
+            #print(f"  -> GET PAYLOAD: {json.dumps(payload, indent=2)}")
             services = payload.get('services', [])
             
             # Catch NoneType if services is randomly null
@@ -104,8 +104,13 @@ def main():
 
             # 2. Guarantee the target product is present
             if not has_target:
-                # Add our mapped dictionary, which includes the placeholder dates
                 new_services.append(PRODUCT_MAP[target_product])
+                needs_update = True
+
+            # 3. Always ensure Ion Standard is present (required by 3-1ENMDU2 contract)
+            has_ion_standard = any(s.get('serviceValue') == 'Ion Standard' for s in new_services)
+            if not has_ion_standard:
+                new_services.append(PRODUCT_MAP['Ion Standard'])
                 needs_update = True
                 
             # 3. Apply the update if anything changed
@@ -114,7 +119,13 @@ def main():
                 print(f"  -> UPDATE REQUIRED: Changing from {original_service_values} to {new_service_values}")
                 
                 payload['services'] = new_services
-                
+
+                # Populate services per ongoing contract — API requires this
+                for contract in payload.get('contracts', []):
+                    if contract.get('status') == 'ongoing':
+                        contract['services'] = new_services
+
+                #print(f"  -> PUT PAYLOAD: {json.dumps(payload, indent=2)}")
                 put_req = session.put(baseurl + cpcode_api, headers=headers, json=payload)
                 if put_req.status_code in [200, 204]:
                     print(f"  -> SUCCESS: CP Code updated.")
